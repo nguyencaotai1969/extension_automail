@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+   <head>
+      <title>GET TEMPMAIL</title>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/style.css">
+      <meta charset="utf-8">
+   </head>
+   <style>
+   </style>
+   <body>
+
+      <div class="container">
+         <div class="row">
+            <img src="img/logo.png" style="
+               text-align: center;
+               margin-left: 35px;
+               font-size: 20px;
+               ">
+
+
+            <svg viewBox="0 0 960 300">
+               <symbol id="s-text">
+                  <text text-anchor="middle" x="50%" y="80%">MAIL.AUTO</text>
+               </symbol>
+               <g class="g-ants">
+                  <use xlink:href="#s-text" class="text-copy"></use>
+                  <use xlink:href="#s-text" class="text-copy"></use>
+                  <use xlink:href="#s-text" class="text-copy"></use>
+                  <use xlink:href="#s-text" class="text-copy"></use>
+                  <use xlink:href="#s-text" class="text-copy"></use>
+               </g>
+            </svg>
+            <div>
+            	<div><a href="cut.html"><img  src="img/hand-scissors.png" class="btn circle1"style=" width: 55px;
+    height: 45px;" alt=""></a></div>
+            	
+            </div>
+         </div>
+         <div class="input-group">
+            <input id="mail_get_mail" type="text" class="form-control inpust" readonly />
+         </div>
+         <br>
+         <div>
+            <button id="Coppy" type="submit" class="btn btn-info fi-action-undo"><i class="fa fa-clone"
+               aria-hidden="true"></i>
+            <b class="Coppy"></b></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button type="submit" id="delete_mail" class="btn btn-info"><i class="fa fa-trash-o" aria-hidden="true"></i> <b class="Delete"></b></button>
+         </div>
+         <table>
+            <ul class="topics-table">
+               <li class="topics-header">
+                  <ul class="header-titles">
+                     <li><b class="form">From</b></li>
+                     <li><b class="Subject">Subjec</b></li>
+                  </ul>
+               </li>
+               <li class="topics-body">
+                  <ul class="topic-item-1">
+                  </ul>
+                  <ul class="loading">   
+                  </ul>
+               </li>
+            </ul>
+         </table>
+         <div class="wrap">
+            <div class="rect">
+               <span class="cart_button" id="click_like"><img class=" btn circle" src="img/like.gif" alt="like" title="Like"></span>
+               <span class="cart_button" id="click_care"><img class=" btn circle" src="img/care.gif" style="width: 90px;"  alt="care" title="care"></span>
+               <span class="cart_button" id="click_love"><img class="btn circle" src="img/love.gif" alt="love" title="Love"></span>
+               <span class="cart_button" id="click_haha"><img class="btn circle" src="img/haha.gif" alt="haha" title="Haha"></span>
+               <span class="cart_button" id="click_wow"><img class="btn circle" src="img/wow.gif" alt="wow" title="Wow"></span>
+               <span class="cart_button" id="click_sad"><img class="btn circle" src="img/sad.gif" alt="sad" title="Sad"></span>
+               <span class="cart_button" id="click_angry"><img  class="btn circle" src="img/angry.gif" alt="angry" title="Angry"></span>
+            </div>
+         </div>
+         <br>
+         <div id="showmessage">
+            <div class="toasts" style="border:1px solid rgba(0, 0, 0, .3);">
+               <div class="toast-header">
+                  <strong class="mr-auto text-primary">Message</strong>
+                  <small class="text-muted">1 mins ago</small>
+               </div>
+               <div class="toast-body">
+               </div>
+            </div>
+         </div>
+         <footer>
+            <div class="neon-wrapper">
+               <div class="loader">
+                  <p><span class="txt"> <a target="blank" class="fb"
+                     href="https://www.facebook.com/nguyencaotai1969">By : <i class="fa fa-facebook"
+                     aria-hidden="true"></i> <b class="autho"> </b>  <i class="fa fa-heart"
+                     aria-hidden="true"></i></a> </span></p>
+               </div>
+            </div>
+         </footer>
+      </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script type="text/javascript" src="popup.js"></script>
+      <script type="text/javascript" src="background.js"></script>
+   </body>
+</html>
