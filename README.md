@@ -11,7 +11,7 @@ Nếu bạn muốn trải nghiệm phiên bản Pro, xin vui lòng liên hệ m�
 
 Nghiêm cấm sử dụng mã nguồn này trong việc thương mại hóa, hãy tôn trọng quyền tác giả.
 
-Features.
+<b>Features.</b>
 
 Block Features.
 
