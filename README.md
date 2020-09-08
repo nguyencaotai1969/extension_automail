@@ -1,12 +1,19 @@
-Mail Auto Chrome Extension
+Mail Auto Chrome Extension.
+
 Với hơn 550.234 ngàn người sử dụng mỗi năm.
+
 Mail Auto là dự án mã nguồn mở của mình, các bạn có thể cài đặt và sử dụng hoàn toàn miễn phí. Tuy nhiên nghiêm cấm hành vi dùng mà nguồn của mình vào việc thương mại hóa, chuộc lợi cho bản thân
+
 Mã nguồn sẽ được cập nhật thường xuyên tại đây
 Extension cực kì nhẹ, chỉ với 50kb
-Nếu bạn muốn trải nghiệm phiên bản Pro, xin vui lòng liên hệ mình với thông tin bên dưới
-Nghiêm cấm sử dụng mã nguồn này trong việc thương mại hóa, hãy tôn trọng quyền tác giả
-Features
-Block Features
+
+Nếu bạn muốn trải nghiệm phiên bản Pro, xin vui lòng liên hệ mình với thông tin bên dưới.
+
+Nghiêm cấm sử dụng mã nguồn này trong việc thương mại hóa, hãy tôn trọng quyền tác giả.
+
+Features.
+
+Block Features.
 
 Nhận Mail tự động cho các bạn tha hồ đăng kí nik clone facebook <3
 
