@@ -11,9 +11,9 @@ Nếu bạn muốn trải nghiệm phiên bản Pro, xin vui lòng liên hệ m�
 
 Nghiêm cấm sử dụng mã nguồn này trong việc thương mại hóa, hãy tôn trọng quyền tác giả.
 
-<b>Features.</b>
+<img src="https://images.viblo.asia/63a1d090-57ec-4248-804a-2591372be4be.png" alt="placeholder+image">
 
-Block Features.
+<b>Block Features.</b>
 
 Nhận Mail tự động cho các bạn tha hồ đăng kí nik clone facebook <3
 
