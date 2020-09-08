@@ -9,9 +9,8 @@ Extension cực kì nhẹ, chỉ với 50kb
 
 Nếu bạn muốn trải nghiệm phiên bản Pro, xin vui lòng liên hệ mình với thông tin bên dưới.
 
-Nghiêm cấm sử dụng mã nguồn này trong việc thương mại hóa, hãy tôn trọng quyền tác giả.
-
-<img src="https://images.viblo.asia/63a1d090-57ec-4248-804a-2591372be4be.png" alt="placeholder+image">
+<b style="color: red">Nghiêm cấm sử dụng mã nguồn này trong việc thương mại hóa, hãy tôn trọng quyền tác giả.
+</b>
 
 <b>Block Features.</b>
 
@@ -30,13 +29,24 @@ Ai Vẫn Không cài đặt được thì có thể ib trực tiếp facebook ch
 
 Bước 1: Vào cmd hoặc terminal : git clone https://github.com/nguyencaotai1969/extension_automail
 
-Bước 2: Gõ trên thanh địa chỉ chrome://extensions/
+hoặc download zip tại phần code 
+<img src="img/e.png" alt="placeholder+image">
 
-Bước 3: Bật chế độ dành cho nhà phát triển ( Developer Mode )
 
-Bước 4: Tải tiện ích đã giải nén ( Load unpacked )
+Bước 2: Sau khi giải nén file vừa tải về Gõ trên thanh địa chỉ chrome://extensions/
+
+
+Bước 3: Bật chế độ dành cho nhà phát triển ( Developer Mode ) ở góc phải màn hình
+
+<img src="img/b.png" alt="placeholder+image">
+
+Bước 4: Ấn Tải tiện ích đã giải nén bên góc trái ( Load unpacked )
+
+<img src="img/sd.png" alt="placeholder+image">
 
 Bước 5: Chọn thư mục bạn vừa clone ở Bước 1 rồi submit
+
+Bước 6: Quay Lại Facebook rồi dùng thử nhé :v
 
 Developer
 
