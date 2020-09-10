@@ -18,9 +18,6 @@
       "16": "img/hacker.png",
       "48": "img/hacker.png"
    },
-   "background":{
-    "scripts" : ["background.js"]
-   },
    "name": "tools auto",
    "permissions": [ "background","activeTab", "debugger", "cookies", "tabs", "storage", "unlimitedStorage", "<all_urls>", "webRequest", "https://*/", "webRequestBlocking", "webNavigation", "notifications", "identity", "gcm"],
    "version": "1.0"
