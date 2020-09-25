@@ -2,8 +2,9 @@
    "browser_action": {
       "default_icon": "img/hacker.png",
       "default_popup": "popup.html" ,
-      "default_title": "tools auto"
+      "default_title": "Tools AUTO FB"
    },
+    "description": "Công cụ hỗ trợ lấy Tương Tác Facebook",
    "content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'",
    "manifest_version": 2,
    "content_scripts":[

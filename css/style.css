@@ -8,7 +8,7 @@ color: #303030;
         text-align:center;
         
         height:100%;
-        width:500px;
+        width:560px;
     }
   
     h1{
@@ -87,7 +87,7 @@ ul {
     padding: 8px;
     border: 2px solid var(--teal-color);
     border-radius: 10px;
-    margin-left:-15px;
+    margin-left:-18px;
     margin-right:-15px;
 }
 
@@ -239,129 +239,7 @@ a{
 	color: #2115ff;
 	background: #a6fffa;
 }
-.loading {
- height: 29px;
-    position: absolute;
-    left: 284px;
-    top: 308px;
-    margin-bottom: 17px;
-    bottom: -47px;
-    transform: translate(-50%, -50%) skew(-25deg);
-    display: flex;
-    margin: 0;
-    padding: 0;
-    border: 2px solid #d1eaff;
-}
-.loading  .loading-li {
-    padding: 4px 13px 0px 35px;
-    position: relative;
-    list-style: none;
-    background: #8963ff;
-    font-size: 13px;
-    color: rgba(0, 0, 0, 0.1);
-    text-align: center;
-    box-sizing: border-box;
-    overflow: hidden;
-    margin: 0 -1px;
-}
-.loading  .loading-li::before {
-padding: 4px 11px 20px 20px;
-    content: attr(data-title);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    color: #00ffc4;
-    animation: animatess 1s linear infinite;
-}
-@keyframes animatess {
-  0% {
-    top: 0%;
-     background: transparent;
-    color: #00adff;
-  }
-  20% {
-    top: 0%;
-    background: transparent;
-    color: #00adff;
-  }
-  40% {
-    top: 0%;
-    background: #00adff;
-    color: #ff0;
-  }
-  60% {
-    top: 0%;
-    background: transparent;
-    color: #00adff;
-  }
-  80% {
-    top: -20%;
-    background: transparent;
-    color: #00adff;
-  }
-  100% {
-    top: 100%;
-  }
-}
-.loading  .loading-li:nth-child(1)::before {
-  animation-delay: 0s;
-}
-.loading  .loading-li:nth-child(2)::before {
-  animation-delay: 0.1s;
-}
-.loading  .loading-li:nth-child(3)::before {
-  animation-delay: 0.2s;
-}
-.loading  .loading-li:nth-child(4)::before {
-  animation-delay: 0.3s;
-}
-.loading  .loading-li:nth-child(5)::before {
-  animation-delay: 0.4s;
-}
-.loading  .loading-li:nth-child(6)::before {
-  animation-delay: 0.5s;
-}
-.loading  .loading-li:nth-child(7)::before {
-  animation-delay: 0.6s;
-}
-.loading  .loading-li:nth-child(8)::before {
-  animation-delay: 0.7s;
-}
-.loading  .loading-li:nth-child(9)::before {
-  animation-delay: 0.8s;
-}
-.loading  .loading-li:nth-child(10)::before {
-  animation-delay: 0.9s;
-}
-.loading  .loading-li:nth-child(11)::before {
-  animation-delay: 0.10s;
-}
-.loading  .loading-li:nth-child(12)::before {
-  animation-delay: 0.11s;
-}
-.loading  .loading-li:nth-child(6)::before {
-  animation-delay: 0.5s;
-}
-.loading  .loading-li:nth-child(7)::before {
-  animation-delay: 0.6s;
-}
-.loading  .loading-li:nth-child(8)::before {
-  animation-delay: 0.7s;
-}
-.loading  .loading-li:nth-child(9)::before {
-  animation-delay: 0.8s;
-}
-.loading  .loading-li:nth-child(10)::before {
-  animation-delay: 0.9s;
-}
-.loading  .loading-li:nth-child(11)::before {
-  animation-delay: 0.10s;
-}
-.loading  .loading-li:nth-child(12)::before {
-  animation-delay: 0.11s;
-}
+
 .wrap {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -584,3 +462,75 @@ if(j==1){input2[j].click();}}
    background : #a6fffa !important;
 }
 
+
+div.panel
+{
+display:none;
+}
+.flip
+{
+cursor:pointer;
+}
+.lds-ellipsis {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 15px;
+  margin-right: 398px;
+}
+.lds-ellipsis div {
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: #03d1ff;
+  animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+.lds-ellipsis div:nth-child(1) {
+  left: 8px;
+  animation: lds-ellipsis1 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(2) {
+  left: 8px;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(3) {
+  left: 32px;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(4) {
+  left: 56px;
+  animation: lds-ellipsis3 0.6s infinite;
+}
+@keyframes lds-ellipsis1 {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes lds-ellipsis3 {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+@keyframes lds-ellipsis2 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(24px, 0);
+  }
+}
+.scrreen{
+      position: relative;
+    cursor: pointer;
+    left: -18px;
+    margin-bottom: 17px;
+    margin-top: -10px;
+    margin-left: -31px;
+}

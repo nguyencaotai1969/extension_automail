@@ -13,10 +13,15 @@ Nếu bạn muốn trải nghiệm phiên bản Pro, xin vui lòng liên hệ m�
 </b>
 
 <b>Block Features.</b>
+Gồn Các Chức Năng Sau :
 
 Nhận Mail tự động cho các bạn tha hồ đăng kí nik clone facebook <3
 
-Boot Auto reaction tự động cho các bạn lười tương tác chỉ với 1 click thì nó sẽ tự động hoạt động tha hồ làm những việc khác <3
+Boot Auto reaction tự động cho các bạn lười tương tác chỉ với 1 click thì nó sẽ tự động hoạt động tha hồ làm những việc khác <3 
+
+Chụp Ảnh Màn Hình Trang Web :
+
+Auto To Like Tự Động Chỉ Cần Điền ID Bài Viết Là Nó Sẽ Lên Ngày Lập Tức .
 
 Feature :
 
@@ -30,6 +35,8 @@ Ai Vẫn Không cài đặt được thì có thể ib trực tiếp facebook ch
 Bước 1: Vào cmd hoặc terminal : git clone https://github.com/nguyencaotai1969/extension_automail
 
 hoặc download zip tại phần code 
+
+
 <img src="img/e.png" alt="placeholder+image">
 
 

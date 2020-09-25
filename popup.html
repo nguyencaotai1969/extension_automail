@@ -8,10 +8,13 @@
       <meta charset="utf-8">
    </head>
    <style>
+
    </style>
+               
+               <img id="target" class="style-img">  
    <body>
 
-      <div class="container">
+      <div class="container"  style="width: 557px">
          <div class="row">
             <img src="img/logo.png" style="
                text-align: center;
@@ -32,10 +35,8 @@
                   <use xlink:href="#s-text" class="text-copy"></use>
                </g>
             </svg>
-            <div>
-            	<div><a href="cut.html"><img  src="img/hand-scissors.png" class="btn circle1"style=" width: 55px;
-    height: 45px;" alt=""></a></div>
-            	
+            <div class="scrreen">
+            	<img src="img/2965705.png" width="40" height="40" title="Screenshot" style="cursor: pointer;" id="targetclick" >
             </div>
          </div>
          <div class="input-group">
@@ -59,15 +60,31 @@
                <li class="topics-body">
                   <ul class="topic-item-1">
                   </ul>
-                  <ul class="loading">   
+                  <ul class="lds-ellipsis"> 
+          				
                   </ul>
                </li>
             </ul>
          </table>
+         	            <b class="text-center">Auto like</b>
+
+         	<div class=" text-center">
+    			<img class="flip btn circle" src="img/like.gif" alt="like" title="Like">
+            </div><br>
+               <div class="panel">
+			<div class="row form-group">
+	        <div class="input-group col-6">
+	            <input type="text"class="form-control" placeholder="Nhập id bài viết cần tăng like">
+	        </div>
+
+	        <button type="submit" class="btn  col-6  btn-info"><i class="fa fa-thumbs-o-up flip" title="Auto Like" ></i> <b>Auto</b></button>
+   			 </div>
+		</div>
+            <b class="text-center">Boot Reaction</b>
          <div class="wrap">
             <div class="rect">
                <span class="cart_button" id="click_like"><img class=" btn circle" src="img/like.gif" alt="like" title="Like"></span>
-               <span class="cart_button" id="click_care"><img class=" btn circle" src="img/care.gif" style="width: 90px;"  alt="care" title="care"></span>
+               <span class="cart_button" id="click_care"><img class=" btn circle" src="img/care.gif" style="width: 15%;"  alt="care" title="care"></span>
                <span class="cart_button" id="click_love"><img class="btn circle" src="img/love.gif" alt="love" title="Love"></span>
                <span class="cart_button" id="click_haha"><img class="btn circle" src="img/haha.gif" alt="haha" title="Haha"></span>
                <span class="cart_button" id="click_wow"><img class="btn circle" src="img/wow.gif" alt="wow" title="Wow"></span>
@@ -86,6 +103,7 @@
                </div>
             </div>
          </div>
+      
          <footer>
             <div class="neon-wrapper">
                <div class="loader">
@@ -100,5 +118,7 @@
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
       <script type="text/javascript" src="popup.js"></script>
       <script type="text/javascript" src="background.js"></script>
+        <script type="text/javascript" src="js/screenshot.js"></script>
+      <script type="text/javascript" src="js/core.js"></script>
    </body>
 </html>
